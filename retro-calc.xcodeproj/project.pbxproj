@@ -14,6 +14,7 @@
 		6A4629CF1CA59242004ED1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A4629CD1CA59242004ED1A6 /* LaunchScreen.storyboard */; };
 		6A4629DA1CA59243004ED1A6 /* retro_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4629D91CA59243004ED1A6 /* retro_calcTests.swift */; };
 		6A4629E51CA59243004ED1A6 /* retro_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4629E41CA59243004ED1A6 /* retro_calcUITests.swift */; };
+		6A4629F31CA9C097004ED1A6 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A4629F21CA9C097004ED1A6 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6A4629E01CA59243004ED1A6 /* retro-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retro-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A4629E41CA59243004ED1A6 /* retro_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calcUITests.swift; sourceTree = "<group>"; };
 		6A4629E61CA59243004ED1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A4629F21CA9C097004ED1A6 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				6A4629C41CA59242004ED1A6 /* AppDelegate.swift */,
+				6A4629F21CA9C097004ED1A6 /* btn.wav */,
 				6A4629C61CA59242004ED1A6 /* ViewController.swift */,
 				6A4629C81CA59242004ED1A6 /* Main.storyboard */,
 				6A4629CB1CA59242004ED1A6 /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 				6A4629CF1CA59242004ED1A6 /* LaunchScreen.storyboard in Resources */,
 				6A4629CC1CA59242004ED1A6 /* Assets.xcassets in Resources */,
 				6A4629CA1CA59242004ED1A6 /* Main.storyboard in Resources */,
+				6A4629F31CA9C097004ED1A6 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				6A4629EB1CA59243004ED1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4629EC1CA59243004ED1A6 /* Build configuration list for PBXNativeTarget "retro-calcTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				6A4629EE1CA59243004ED1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A4629EF1CA59243004ED1A6 /* Build configuration list for PBXNativeTarget "retro-calcUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				6A4629F11CA59243004ED1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
